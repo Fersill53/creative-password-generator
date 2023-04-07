@@ -1,3 +1,14 @@
+/* password rules*/
+var characterLength = 10;
+var choiceUser = [];
+
+/* Adding variables for password */
+var lowercase = [ ];
+var upercase = [ ];
+var numbers = [ ];
+var specialcharacters = [ ];
+
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
