@@ -20,7 +20,7 @@ Source code provided by the UT Fullstack development bootcamp
 
 ## Screenshot
 
-![passgen.png](
+![passgen.png](https://github.com/Fersill53/creative-password-generator/blob/main/passgen.png)
 
 
 ## Deployment
