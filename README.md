@@ -20,7 +20,7 @@ Source code provided by the UT Fullstack development bootcamp
 
 ## Screenshot
 
-![passgen.png](https://github.com/Fersill53/
+![passgen.png](
 
 
 ## Deployment
