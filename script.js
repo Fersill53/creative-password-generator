@@ -19,17 +19,19 @@ generateBtn.addEventListener("click", writePassword);
 // Write password to the #password input
 function writePassword() {
   var correctPrompts = getPrompts();
+  var passwordText = document.querySelector("#password");
+//will generate password if the values in correct prompts are true.
   if(correctPrompts) {
   var passwordGen = generatePassword();
-  var passwordText = document.querySelector("#password");
-
+  
+//if anything is false this will return an empty line
   passwordText.value = passwordGen;
   } else {
     passwordText.value = "";
   }
 
 }
-
+//used basic for loop structure because everyting else confused me
 function generatePassword() {
   var password = "";
   for(var i = 0; i < characterLength; i++){
