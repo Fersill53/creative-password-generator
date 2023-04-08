@@ -64,7 +64,7 @@ function getPrompts() {
   }
   
   if (confirm("User, would you like numbers in your password?")) {
-    choiceUser = choiceUser.concat(number);
+    choiceUser = choiceUser.concat(numbers);
   }
   
   return true;
